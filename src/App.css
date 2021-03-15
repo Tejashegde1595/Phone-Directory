@@ -1,6 +1,6 @@
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   padding: 10px;
 }
 .grid-item {
@@ -10,6 +10,16 @@
 
 .addBtn{
   background-color: green;
+  width: 80px;
+  color: white;
+  height: 40px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 10%; 
+}
+
+.delete{
+  background-color: hotpink;
   width: 80px;
   color: white;
   height: 40px;
